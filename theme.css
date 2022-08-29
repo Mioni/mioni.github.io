@@ -1,0 +1,144 @@
+@import url('https://rsms.me/inter/inter.css');
+@import url("https://lavender-discord.github.io/IconsaxDiscord/theme.css");
+@import url(https://discord-modifications.github.io/dark-discord/src/source.css);
+@import url(https://dablulite.github.io/macos-titlebar-buttons/import.css);
+:root {
+    --mactitlebar-left-margin: 5px;
+    --mactitlebar-top-margin: 10px;
+    --mactitlebar-button-width: 20px;
+    --mactitlebar-button-height: 20px;
+    --mactitlebar-button-border-radius: 50px;
+    --mactitlebar-close-btn-back: #f25056;
+    --mactitlebar-min-btn-back: #fac536;
+    --mactitlebar-max-btn-back: #39ea49;
+    --macbuttons-serverlist-inner-top-margin: 32px;
+    /*guilds inner ul element*/
+    --macbuttons-serverlist-outer-top-margin: 0;
+    --macbuttons-serverlist-outer-height: 100%;
+}
+
+
+
+@import url("https://crearts-community.github.io/Mention-Links/theme.css");
+@import url(https://discord-theme.pages.dev/assets/snippets/watermark.css);
+
+:root {
+  --watermark: "mioni™️"
+}
+
+
+.anchor-1MIwyf[href="https://support.discord.com"] {
+  display: none !important;
+}
+
+:root {
+
+  --font-primary:  Inter, Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display:  Inter, Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+ 
+}
+
+.tutorialContainer-2jwoiB, .tutorialContainer-2jwoiB+div { display: none;}
+
+.role-2TIOKu {
+    transform: translate(0);
+    overflow: hidden;
+
+    --transparency: .4;
+    border-radius: 5px;
+}
+.role-2TIOKu .roleRemoveIcon-387wKV {
+    margin: 0;
+    left: unset;
+    transform: translate(50%,-50%);
+}
+.role-2TIOKu .roleRemoveButton-17oXnT {
+    position: static;
+}
+.role-2TIOKu .roleCircle-3K9O3d:before {
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    opacity: var(--transparency);
+}
+
+.roleCircle-3K9O3d {
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+}
+
+.name-3BUDLf {
+  display: flex;
+  align-items: center;
+  color: var(--main-color);
+  font-weight: 600;
+  text-align: center;
+  transition: all .3s ease-in-out;
+    
+
+}
+            
+.name-3BUDLf:after {
+  content: "";
+  height: 2px;
+  flex-grow: 1;
+  transition: all .3s ease-in-out;
+  background: linear-gradient(to right, var(--main-color) 50%, transparent);
+  margin-left: 5px
+}
+
+
+
+.animatedContainer-2laTjx,  .content-2a4AW9 [style="height: 84px;"], .bannerImage-ubW8K-, .animatedBannerHoverLayer-129r1v, .container-2giAcK {
+    display: none;
+}
+.header-3OsQeK {
+    box-shadow: var(--elevation-low) !important;
+}
+
+.repliedMessage-3Z6XBG:before {
+    --spine-width: 3px;
+    border-color: #bdae93;
+}
+
+button[aria-label="Send a gift"] {
+    display: none;
+: none;
+}
+
+/* Hide GIF picker button */
+button[aria-label="Open GIF picker"] {
+    display: none;
+}
+
+/* Hide sticker picker button */
+button[aria-label="Open sticker picker"] {
+    display: none;
+}
+
+.communityInfoContainer-1dMVpU {
+    display: none;
+}
+
+.container-1NXEtd .content-2a4AW9 > div[style="height: 16px;"]:nth-child(2){
+    display: none;
+}
+
+.body-2wLx-E .note-Go5ZP2,
+.body-2wLx-E .bodyTitle-2Az3VQ:last-of-type{
+  display:none;
+}
+
+
+font-family:var(--font-display);font-weight:500;padding:12px 16px;box-sizing:border-box;z-index:3;transition:background-color .1s linear;box-shadow:var(--elevation-low);background-color:var(--background-secondary) !important}.communityInfoVisible-3zc5_s:not(.hasBanner-2IrYih):hover .header-3OsQeK,.communityInfoVisible-3zc5_s:not(.hasBanner-2IrYih) .selected-1GtAC5{background-color:var(--background-modifier-hover) !important;box-shadow:var(--elevation-low)}.communityInfoVisible-3zc5_s:not(.hasBanner-2IrYih)~.scroller-1ox3I2>.content-2a4AW9>.containerDefault-3TQ5YN:first-of-type{padding-top:0px}.headerContent-2SNbie{width:100% !important}.primaryInfo-2ocY3v{height:unset !important}.header-3OsQeK{display:flex !important;align-items:flex-start}@font-face{font-family:"CreArts";font-style:normal;font-weight:300;font-display:swap;src:url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-300.woff2) format("woff2");unicode-range:U+0020-007F,U+00A0-00FF,U+0100-017F,U+0180-024F}@font-face{font-family:"CreArts";font-style:normal;font-weight:400;font-display:swap;src:url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-400.woff2) format("woff2");unicode-range:U+0020-007F,U+00A0-00FF,U+0100-017F,U+0180-024F}@font-face{font-family:"CreArts";font-style:normal;font-weight:500;font-display:swap;src:url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-500.woff2) format("woff2");unicode-range:U+0020-007F,U+00A0-00FF,U+0100-017F,U+0180-024F}@font-face{font-family:"CreArts";font-style:normal;font-weight:600;font-display:swap;src:url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-600.woff2) format("woff2");unicode-range:U+0020-007F,U+00A0-00FF,U+0100-017F,U+0180-024F}@font-face{font-family:"CreArts";font-style:normal;font-weight:700;font-display:swap;src:url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-700.woff2) format("woff2");
+
+
+
+
+
