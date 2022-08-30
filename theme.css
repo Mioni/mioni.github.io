@@ -1,4 +1,5 @@
-@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url("https://crearts-community.github.io/Mention-Links/theme.css");
 @import url(https://discord-modifications.github.io/dark-discord/src/source.css);
 @import url(https://dablulite.github.io/macos-titlebar-buttons/import.css);
 :root {
@@ -14,15 +15,6 @@
     /*guilds inner ul element*/
     --macbuttons-serverlist-outer-top-margin: 0;
     --macbuttons-serverlist-outer-height: 100%;
-}
-
-
-
-@import url("https://crearts-community.github.io/Mention-Links/theme.css");
-@import url(https://discord-theme.pages.dev/assets/snippets/watermark.css);
-
-:root {
-  --watermark: "mioni™️"
 }
 
 
