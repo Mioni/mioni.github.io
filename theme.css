@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url(https://discord-modifications.github.io/dark-discord/src/source.css);
 @import url("https://crearts-community.github.io/Mention-Links/theme.css");
-@import url(https://discord-theme.pages.dev/assets/snippets/watermark.css);
+@import url('https://rsms.me/inter/inter.css');
 
-:root {
-  --watermark: "MIONI™️"
-}
 
 
 .anchor-1MIwyf[href="https://support.discord.com"] {
@@ -15,6 +12,7 @@
 
   --font-primary:  Inter, Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-display:  Inter, Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    
  
 }
 
@@ -24,7 +22,7 @@
     transform: translate(0);
     overflow: hidden;
 
-    --transparency: .4;
+    --transparency: .2;
     border-radius: 5px;
 }
 .role-2TIOKu .roleRemoveIcon-387wKV {
@@ -37,11 +35,11 @@
 }
 .role-2TIOKu .roleCircle-3K9O3d:before {
     content: '';
-    top: 0;
-    left: 0;
+    top: 10;
+    left: 10;
     z-index: -1;
-    width: 100%;
-    height: 100%;
+    width: 15000%;
+    height: 11100%;
     position: absolute;
     background: inherit;
     opacity: var(--transparency);
@@ -84,7 +82,19 @@
 
 .repliedMessage-3Z6XBG:before {
     --spine-width: 3px;
-    border-color: #fff;
+    border-color: #745ec5;
+}
+
+[d="M13.6572 5.42868C13.8879 5.29002 14.1806 5.30402 14.3973 5.46468C14.6133 5.62602 14.7119 5.90068 14.6473 6.16202L13.3139 11.4954C13.2393 11.7927 12.9726 12.0007 12.6666 12.0007H3.33325C3.02725 12.0007 2.76058 11.792 2.68592 11.4954L1.35258 6.16202C1.28792 5.90068 1.38658 5.62602 1.60258 5.46468C1.81992 5.30468 2.11192 5.29068 2.34325 5.42868L5.13192 7.10202L7.44592 3.63068C7.46173 3.60697 7.48377 3.5913 7.50588 3.57559C7.5192 3.56612 7.53255 3.55663 7.54458 3.54535L6.90258 2.90268C6.77325 2.77335 6.77325 2.56068 6.90258 2.43135L7.76458 1.56935C7.89392 1.44002 8.10658 1.44002 8.23592 1.56935L9.09792 2.43135C9.22725 2.56068 9.22725 2.77335 9.09792 2.90268L8.45592 3.54535C8.46794 3.55686 8.48154 3.56651 8.49516 3.57618C8.51703 3.5917 8.53897 3.60727 8.55458 3.63068L10.8686 7.10202L13.6572 5.42868ZM2.66667 12.6673H13.3333V14.0007H2.66667V12.6673Z"] {
+    d: path("M2 15.29V5.71002C2 4.38002 2.77 4.06002 3.71 5.00002L6.3 7.59002C6.69 7.98002 7.33 7.98002 7.71 7.59002L11.29 4.00002C11.68 3.61002 12.32 3.61002 12.7 4.00002L16.29 7.59002C16.68 7.98002 17.32 7.98002 17.7 7.59002L20.29 5.00002C21.23 4.06002 22 4.38002 22 5.71002V15.3C22 18.3 20 20.3 17 20.3H7C4.24 20.29 2 18.05 2 15.29Z");
+    transform: scale(0.7) translate(-2px, -2px);
+}
+
+[d="M23.0212 1.67671C21.3107 0.879656 19.5079 0.318797 17.6584 0C17.4062 0.461742 17.1749 0.934541 16.9708 1.4184C15.003 1.12145 12.9974 1.12145 11.0283 1.4184C10.819 0.934541 10.589 0.461744 10.3368 0.00546311C8.48074 0.324393 6.67795 0.885118 4.96746 1.68231C1.56727 6.77853 0.649666 11.7538 1.11108 16.652C3.10102 18.1418 5.3262 19.2743 7.69177 20C8.22338 19.2743 8.69519 18.4993 9.09812 17.691C8.32996 17.3997 7.58522 17.0424 6.87684 16.6135C7.06531 16.4762 7.24726 16.3387 7.42403 16.1847C11.5911 18.1749 16.408 18.1749 20.5763 16.1847C20.7531 16.3332 20.9351 16.4762 21.1171 16.6135C20.41 17.0369 19.6639 17.3997 18.897 17.691C19.3052 18.4993 19.7718 19.2689 20.3021 19.9945C22.6677 19.2689 24.8929 18.1364 26.8828 16.6466H26.8893C27.43 10.9731 25.9665 6.04728 23.0212 1.67671ZM9.68041 13.6383C8.39754 13.6383 7.34085 12.4453 7.34085 10.994C7.34085 9.54272 8.37155 8.34973 9.68041 8.34973C10.9893 8.34973 12.0395 9.54272 12.0187 10.994C12.0187 12.4453 10.9828 13.6383 9.68041 13.6383ZM18.3161 13.6383C17.0332 13.6383 15.9765 12.4453 15.9765 10.994C15.9765 9.54272 17.0124 8.34973 18.3161 8.34973C19.6184 8.34973 20.6751 9.54272 20.6543 10.994C20.6543 12.4453 19.6184 13.6383 18.3161 13.6383Z"] {
+    d: path("M17.25 10.18V12.81C17.25 12.98 17.24 13.14 17.22 13.3C17.07 15.07 16.02 15.95 14.1 15.95H13.84C13.68 15.95 13.52 16.03 13.42 16.16L12.63 17.21C12.28 17.68 11.72 17.68 11.37 17.21L10.58 16.16C10.49 16.05 10.3 15.95 10.16 15.95H9.89999C7.79999 15.95 6.75 15.43 6.75 12.8V10.17C6.75 8.25004 7.63999 7.20002 9.39999 7.05002C9.55999 7.03002 9.72001 7.02002 9.89001 7.02002H14.09C16.2 7.04002 17.25 8.09002 17.25 10.18Z"); 
+    transform-origin: center;
+    transform: scale(2) translate(2px, -2px);
+
 }
 
 button[aria-label="Send a gift"] {
@@ -114,35 +124,61 @@ button[aria-label="Open sticker picker"] {
 .body-2wLx-E .bodyTitle-2Az3VQ:last-of-type{
   display:none;
 }
-.compact-2Nkcau .PI-indicatorContainer svg {
-    display: block;
-    margin-left: 0;
+
+
+
+.discordMemberCreatedAtIconContainer-2oMHqL  {
+   padding: 0px;
+   background-color: var(--background-tertiary);
 }
 
-.compact-2Nkcau .PI-indicatorContainer {
-    margin-bottom: 2px;
-    margin-left: 1px;
-    margin-right: 1px;
+.discordMemberCreatedAtIcon-126if8 {
+   width: 24px;
+   height: 24px;
 }
 
-[d="M13.6572 5.42868C13.8879 5.29002 14.1806 5.30402 14.3973 5.46468C14.6133 5.62602 14.7119 5.90068 14.6473 6.16202L13.3139 11.4954C13.2393 11.7927 12.9726 12.0007 12.6666 12.0007H3.33325C3.02725 12.0007 2.76058 11.792 2.68592 11.4954L1.35258 6.16202C1.28792 5.90068 1.38658 5.62602 1.60258 5.46468C1.81992 5.30468 2.11192 5.29068 2.34325 5.42868L5.13192 7.10202L7.44592 3.63068C7.46173 3.60697 7.48377 3.5913 7.50588 3.57559C7.5192 3.56612 7.53255 3.55663 7.54458 3.54535L6.90258 2.90268C6.77325 2.77335 6.77325 2.56068 6.90258 2.43135L7.76458 1.56935C7.89392 1.44002 8.10658 1.44002 8.23592 1.56935L9.09792 2.43135C9.22725 2.56068 9.22725 2.77335 9.09792 2.90268L8.45592 3.54535C8.46794 3.55686 8.48154 3.56651 8.49516 3.57618C8.51703 3.5917 8.53897 3.60727 8.55458 3.63068L10.8686 7.10202L13.6572 5.42868ZM2.66667 12.6673H13.3333V14.0007H2.66667V12.6673Z"] {
-    d: path("M2 15.29V5.71002C2 4.38002 2.77 4.06002 3.71 5.00002L6.3 7.59002C6.69 7.98002 7.33 7.98002 7.71 7.59002L11.29 4.00002C11.68 3.61002 12.32 3.61002 12.7 4.00002L16.29 7.59002C16.68 7.98002 17.32 7.98002 17.7 7.59002L20.29 5.00002C21.23 4.06002 22 4.38002 22 5.71002V15.3C22 18.3 20 20.3 17 20.3H7C4.24 20.29 2 18.05 2 15.29Z");
-    transform: scale(0.7) translate(-2px, -2px);
+.discordMemberCreatedAtText-15sN5q>div{
+   display: none;
 }
 
-
-
-
-[d="M23.0212 1.67671C21.3107 0.879656 19.5079 0.318797 17.6584 0C17.4062 0.461742 17.1749 0.934541 16.9708 1.4184C15.003 1.12145 12.9974 1.12145 11.0283 1.4184C10.819 0.934541 10.589 0.461744 10.3368 0.00546311C8.48074 0.324393 6.67795 0.885118 4.96746 1.68231C1.56727 6.77853 0.649666 11.7538 1.11108 16.652C3.10102 18.1418 5.3262 19.2743 7.69177 20C8.22338 19.2743 8.69519 18.4993 9.09812 17.691C8.32996 17.3997 7.58522 17.0424 6.87684 16.6135C7.06531 16.4762 7.24726 16.3387 7.42403 16.1847C11.5911 18.1749 16.408 18.1749 20.5763 16.1847C20.7531 16.3332 20.9351 16.4762 21.1171 16.6135C20.41 17.0369 19.6639 17.3997 18.897 17.691C19.3052 18.4993 19.7718 19.2689 20.3021 19.9945C22.6677 19.2689 24.8929 18.1364 26.8828 16.6466H26.8893C27.43 10.9731 25.9665 6.04728 23.0212 1.67671ZM9.68041 13.6383C8.39754 13.6383 7.34085 12.4453 7.34085 10.994C7.34085 9.54272 8.37155 8.34973 9.68041 8.34973C10.9893 8.34973 12.0395 9.54272 12.0187 10.994C12.0187 12.4453 10.9828 13.6383 9.68041 13.6383ZM18.3161 13.6383C17.0332 13.6383 15.9765 12.4453 15.9765 10.994C15.9765 9.54272 17.0124 8.34973 18.3161 8.34973C19.6184 8.34973 20.6751 9.54272 20.6543 10.994C20.6543 12.4453 19.6184 13.6383 18.3161 13.6383Z"] {
-    d: path("M17.25 10.18V12.81C17.25 12.98 17.24 13.14 17.22 13.3C17.07 15.07 16.02 15.95 14.1 15.95H13.84C13.68 15.95 13.52 16.03 13.42 16.16L12.63 17.21C12.28 17.68 11.72 17.68 11.37 17.21L10.58 16.16C10.49 16.05 10.3 15.95 10.16 15.95H9.89999C7.79999 15.95 6.75 15.43 6.75 12.8V10.17C6.75 8.25004 7.63999 7.20002 9.39999 7.05002C9.55999 7.03002 9.72001 7.02002 9.89001 7.02002H14.09C16.2 7.04002 17.25 8.09002 17.25 10.18Z"); 
-    transform-origin: center;
-    transform: scale(2) translate(2px, -2px);
-
+.discordMemberCreatedAt-31OkT7>.discordMemberCreatedAtText-15sN5q>h3{
+   font-size: 16px;
+   font-family: inherit;
+   font-weight: 600;
+   user-select: text;
 }
 
-font-family:var(--font-display);font-weight:500;padding:12px 16px;box-sizing:border-box;z-index:3;transition:background-color .1s linear;box-shadow:var(--elevation-low);background-color:var(--background-secondary) !important}.communityInfoVisible-3zc5_s:not(.hasBanner-2IrYih):hover .header-3OsQeK,.communityInfoVisible-3zc5_s:not(.hasBanner-2IrYih) .selected-1GtAC5{background-color:var(--background-modifier-hover) !important;box-shadow:var(--elevation-low)}.communityInfoVisible-3zc5_s:not(.hasBanner-2IrYih)~.scroller-1ox3I2>.content-2a4AW9>.containerDefault-3TQ5YN:first-of-type{padding-top:0px}.headerContent-2SNbie{width:100% !important}.primaryInfo-2ocY3v{height:unset !important}.header-3OsQeK{display:flex !important;align-items:flex-start}@font-face{font-family:"CreArts";font-style:normal;font-weight:300;font-display:swap;src:url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-300.woff2) format("woff2");unicode-range:U+0020-007F,U+00A0-00FF,U+0100-017F,U+0180-024F}@font-face{font-family:"CreArts";font-style:normal;font-weight:400;font-display:swap;src:url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-400.woff2) format("woff2");unicode-range:U+0020-007F,U+00A0-00FF,U+0100-017F,U+0180-024F}@font-face{font-family:"CreArts";font-style:normal;font-weight:500;font-display:swap;src:url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-500.woff2) format("woff2");unicode-range:U+0020-007F,U+00A0-00FF,U+0100-017F,U+0180-024F}@font-face{font-family:"CreArts";font-style:normal;font-weight:600;font-display:swap;src:url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-600.woff2) format("woff2");unicode-range:U+0020-007F,U+00A0-00FF,U+0100-017F,U+0180-024F}@font-face{font-family:"CreArts";font-style:normal;font-weight:700;font-display:swap;src:url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-700.woff2) format("woff2");
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    color: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
+    background-color: #7B64CC;
+}
+
+.newMessagesBar-1hF-9G.barBase-3xxDXu
+{ width: 50%;
+  left: 50%;
+  border-radius: 0px 0px 0px 10px !important; }
+.jumpToPresentBar-1cEnH0.barBase-3xxDXu
+{ width: 46%;
+  border-radius: 10px 10px 0px 0px !important; }
 
 
+.discordMemberCreatedAtIconContainer-2oMHqL  {
+   padding: 0px;
+   background-color: var(--background-tertiary);
+}
 
+.discordMemberCreatedAtIcon-126if8 {
+   width: 24px;
+   height: 24px;
+}
 
+.discordMemberCreatedAtText-15sN5q>div{
+   display: none;
+}
 
+.discordMemberCreatedAt-31OkT7>.discordMemberCreatedAtText-15sN5q>h3{
+   font-size: 16px;
+   font-family: inherit;
+   font-weight: 600;
+   user-select: text;
+}
